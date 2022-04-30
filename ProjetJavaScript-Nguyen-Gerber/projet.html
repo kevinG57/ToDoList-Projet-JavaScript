@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernard's & Kevin's to do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--PROJET JS TERMINEE-->
+<!--BRANCHE MAIN GITHUB TERMINEE-->
+
+<body>
+    <div id="title">
+
+        <h1>To do list</h1>
+
+    </div>
+    <div class="container">
+
+        <div id="newtask">
+            <input value="" id="task" type="text" placeholder="add task"
+                onKeyPress="if(event.keyCode == 13) addTask();">
+            <button type="submit" id="push" onclick="addTask()">Add</button>
+        </div>
+
+        <div id="messageTitleBlock">
+            <h2 id="title2">Pending :</h2>
+            <span id="messageInPendingTask"><br />You have no current task.<br /></span>
+        </div>
+
+        <div id="pending">
+
+        </div>
+
+        <div id="messageTitleBlock">
+            <h2 id="title2">Completed :</h2>
+            <span id="messageInDoneTask"><br />You have no completed tasks.<br /></span>
+        </div>
+
+        <div id="completed">
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="signature">
+            © by Bernard Nguyen & Kevin Gerber
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
