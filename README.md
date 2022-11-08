@@ -1,9 +1,6 @@
 ## Student project
 
-Todo list programmé en langages HTML, CSS et JS. Projet de fin de cours effectué en binome.
-
-Pour pouvoir utiliser l'application :
-Executez le fichier .jar présent dans le dossier afin de pouvoir avoir accès à la base de données.
+Todo list programmé en langages HTML, CSS et JavaScript. Projet de fin de cours effectué en binome.
 
 ## Authors
 
