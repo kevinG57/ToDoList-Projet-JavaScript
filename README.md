@@ -1,6 +1,7 @@
 ## Student project
 
-Todo list programmé en langages HTML, CSS et JavaScript. Projet de fin de cours effectué en binome.
+Todo list programmé avec les langages HTML, CSS et JavaScript. 
+Projet de fin de cours JavaScript.
 
 ## Authors
 
